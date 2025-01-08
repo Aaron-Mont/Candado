@@ -8,7 +8,16 @@
 </head>
 <body>
 
-    <section>
+    <section id="trivial" class="section-trivial">
+
+
+
+
+    </section>
+
+
+
+    <section class="section-padlock">
 
         <div>
             <input class="inputs-cuadrados" id="respuesta1" type="number">
@@ -16,14 +25,19 @@
             <input class="inputs-cuadrados" id="respuesta3" type="number">
             <input class="inputs-cuadrados" id="respuesta4" type="number">
         </div>
-       
+
         <button id="botonCerradura" onclick="comprobarResultado()">Desbloquear</button>
-    </section>
+
     
-    <div>
-        <h2>Intentos: <span id="intentos"></span></h2>
-    </div>
+        <div>
+            <h2>Intentos: <span id="intentos"></span></h2>
+        </div>
+       
+    </section>
+
+   
 </body>
 
 <script src="index.js"></script>
+<script src="trivial.js"></script>
 </html>
